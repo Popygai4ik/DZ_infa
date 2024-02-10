@@ -3,7 +3,7 @@ import math
 n = int(input())
 delitel = 2
 if n % delitel:
-    for delitel in range(3, int(math.sqrt(n)) + 1, 2):
+    for delitel in range(3, int(math.sqrt(n))+2):
         if n % delitel == 0:
             break
 a = n // delitel
